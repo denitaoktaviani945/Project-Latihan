@@ -39,3 +39,21 @@ var tambahPenumpang =  function ( namaPenumpang, penumpang){
 
 }
 }
+
+
+var hapusPenumpang = function ( namaPenumpang,penumpang){
+    if (penumpang.length == 0){
+        console.log ('angkot masih kosong ');
+        return penumpang ;
+    } else {
+        for ( var i =0 ; i < penumpang.length; i++){
+            if ( penumpang [i] == namaPenumpang){
+                penumpang[i] = undefined;
+                return penumpang;
+            } else if (  i == penumpang.legth -1 ){
+                console.log( namaPenumpang +' tidak ada dalam mobil');
+                return penumpang;
+            }
+        }
+    }
+}
