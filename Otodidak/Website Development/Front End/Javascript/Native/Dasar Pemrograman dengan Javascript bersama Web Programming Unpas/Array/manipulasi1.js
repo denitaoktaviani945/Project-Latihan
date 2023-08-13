@@ -24,8 +24,24 @@
 // console.log(angka2.join('-'));
 
 // 8. sort
+// var angka =[1,2,3,4,19,10,8];
+// angka.sort(function (a , b ){
+//     return a - b;
+// });
+// console.log(angka.join('-'));
+
+// 9. filter
+// var angka =[1,2,3,4,19,10,8];
+// var angka2 = angka.filter(function(x){
+//     return x == 19;
+// });
+
+// console.log (angka2);
+
+// 10. find
 var angka =[1,2,3,4,19,10,8];
-angka.sort(function (a , b ){
-    return a - b;
+var angka2 = angka.find(function(x){
+    return x == 19;
 });
-console.log(angka.join('-'));
+
+console.log (angka2);
