@@ -1,0 +1,32 @@
+body{
+	background-color:lightgray;
+}
+
+	h1{
+	
+	background-image: url(koala.jpeg);
+	background-repeat:repeat;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2{
+	font-family: arial ;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+table{
+	 background-color:gainsboro;
+	 font-family: arial;
+	 font-size: 20px;
+	 text-align: left;
+
+}
+
+button {
+	background-color: gray;
+	text-align: center;
+	font-family: arial;
+	font-size: 17px;
+}
