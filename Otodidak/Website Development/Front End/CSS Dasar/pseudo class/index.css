@@ -1,0 +1,60 @@
+.hello{
+	color: orange ;
+
+}
+
+
+/* dalam keadaan hover*/
+.hello:hover{
+	color: green;
+	font-family: arial;
+	font-size: 20px;
+
+}
+
+/*ketika link actv*/
+
+.hello:active{
+	font-style: italic ;
+} 
+
+/* hall yang terjadi ketika link sudah pernah dibuka*/
+.hello:visited {
+
+	color: red;
+}
+
+/* memberi tanda pada pseudo class d awal*/
+li:first-child a{
+	color: red;
+}
+/* memberi tanda pseudo class yang palinng akhir */
+li:last-child a{
+	color: green;
+}
+
+/*memberi tanda pseudo class dengann class yang spesifik*/
+li:nth-child(3) a{
+	color: purple;
+}
+
+
+/* jika ingin angka genap menggunakan even jika ingin angka ganjil meenggunakan add */
+li:nth-child(even) a {
+	color: purple;
+}
+
+li:nth-child(even) a:hover {
+	color: pink;
+}
+
+/*memilih jenis elemen pertama pada sebuah jenis atau tipe tag*/
+
+/*memilih jenis elementerakhir pada sebuah jenis atau tipe tag*/
+
+p:first-of-type {
+	color: red;
+}
+p:last-of-type {
+	color: yellow;
+}
