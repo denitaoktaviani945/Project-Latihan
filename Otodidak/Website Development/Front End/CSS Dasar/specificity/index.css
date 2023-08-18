@@ -1,0 +1,19 @@
+/*ini merupakan css yang warna nya tertimpa oleh warna yang baru*/
+
+p {color :green;}
+
+p {color :orange;}
+
+/* ini lebih memilih hal yang spesifik */
+p {color :orange;}
+
+#p1 { color: red; }
+
+/*jika ingin ada salah satu yang berbeda */
+ul#sarapan li {
+	color: green;
+}
+
+ul#sarapan li.fav {
+	color: yellow;
+}
