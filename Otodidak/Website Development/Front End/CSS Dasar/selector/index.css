@@ -1,0 +1,28 @@
+body{
+	font-family: arial;
+}
+
+/* metode gruping dengan tanda koma(,)*/
+h1 , h2 {
+	color: blue;
+}
+
+/* metode gruping dengan operator spasi, spasi bisa d artikan di dalam*/
+
+ul li  {
+	color: red;
+}
+
+ol li      {
+	color: yellow;
+}
+
+/* selector bauatan sendiri */ 
+ /* untuk selector id*/
+ #p1 {
+ 	color: gray;
+ }
+/* untuk selector class */
+.p2 {
+	color: purple;
+}
