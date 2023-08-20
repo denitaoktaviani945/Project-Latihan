@@ -1,0 +1,27 @@
+.padd {
+
+	width: 200px;
+	height: 200px;
+	background-color: coral;
+	margin: 20px auto;
+	padding: 50px;
+}
+
+.bord{
+	width: 200px;
+	height: 200px;
+	background-color: coral;
+	margin: 20px auto;
+	padding: 50px;
+	border :7px solid black;
+}
+
+.bord2 {
+	width: 200px;
+	height: 200px;
+	background-color: coral;
+	margin: 20px auto;
+	padding: 50px;
+	border-left: 7px solid black;
+	border-right: 10px dotted pink;
+}
