@@ -1,0 +1,48 @@
+body{
+	height: 2000px;
+}
+
+
+
+
+.container {
+	width: 800px;
+	border: 1px solid black;
+	margin:auto;
+	position: relative;
+
+}
+.kotak div{
+	
+	margin: auto;
+
+}
+
+.satu{
+	background-color: pink;
+	width: 100px;
+	height: 100px;
+
+}
+
+.dua{
+	background-color: orange;
+	position: fixed;
+	height: 50px;
+	width: 100%;	
+	top: 0;
+	left: 0;
+	}
+
+.tiga{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+
+	
+}
+img{
+	width: 600px;
+	height: 300px;
+}
+
