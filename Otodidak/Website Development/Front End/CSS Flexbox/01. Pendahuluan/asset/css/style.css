@@ -1,0 +1,56 @@
+   .container  {
+   		width: 600px;
+   		border: 5px solid darkgray;
+   		margin: 30px auto;
+   		padding: 5px;
+   		box-sizing: border-box;
+   		display: flex;
+
+   	 }
+
+  .container div{
+  	width: 120px;
+  	height: 120px;
+  	background-color: violet;
+  	margin :5px; 
+
+  }
+
+
+.container2  {
+   		width: 600px;
+   		border: 5px solid darkgray;
+   		margin: 30px auto;
+   		padding: 5px;
+   		box-sizing: border-box;
+   		display: flex;
+   		flex-direction: column;
+
+   	 }
+.container2 div {
+	width: 120px;
+  	height: 120px;
+  	background-color: violet;
+  	margin :5px;
+
+
+}
+
+.container3  {
+   		width: 600px;
+   		border: 5px solid darkgray;
+   		margin: 30px auto;
+   		padding: 5px;
+   		box-sizing: border-box;
+   		display: flex;
+   		flex-wrap: wrap;
+
+   	 }
+.container3 div {
+	width: 120px;
+  	height: 120px;
+  	background-color: violet;
+  	margin :5px;
+
+
+}
