@@ -6,7 +6,20 @@
    		box-sizing: border-box;
    		display: flex;
 
+
    	 }
+
+    body img {
+      width: 450px;
+      height:400px;
+    }
+
+ul img {
+      width: 400px;
+      height:450px;
+
+  }
+
 
   .container div{
   	width: 120px;
