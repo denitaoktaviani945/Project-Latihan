@@ -1,0 +1,46 @@
+.container {
+	width: 600px;
+	border: 5px solid black;
+	margin: 30px auto;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+
+}
+
+  .container div{
+  	width: 120px;
+  	height: 120px;
+  	background-color: violet;
+  	margin :5px; 
+
+  }
+
+  .satu { order : 4; }
+  .dua { order :1; }
+  .tiga {order: 2;}
+  .empat { order: 3; }
+
+ .container1 {
+	width: 600px;
+	height: 150px;
+	border: 5px solid black;
+	margin: 30px auto;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+	
+
+}
+
+  .container1 div{
+  	background-color: violet;
+  	margin :5px; 
+  	flex-grow: 1;
+
+  }
+
+.container1 div.satu { flex-grow: 1; }
+.container1 div.dua{ flex-grow: 2; }
+.container1 div.tiga {flex-grow: 1;}
+.container1 div.empat {flex-grow: 3;}
