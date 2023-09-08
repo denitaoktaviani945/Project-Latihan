@@ -44,3 +44,27 @@
 .container1 div.dua{ flex-grow: 2; }
 .container1 div.tiga {flex-grow: 1;}
 .container1 div.empat {flex-grow: 3;}
+
+
+
+ .container2 {
+	width: 600px;
+	height: 150px;
+	border: 5px solid black;
+	margin: 30px auto;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: flex-start;
+	
+
+}
+
+  .container2 div{
+  	background-color: violet;
+  	margin :5px; 
+  	
+
+  }
+
+  .container2 div.tiga {flex-grow: 3; align-self: flex-end;}
