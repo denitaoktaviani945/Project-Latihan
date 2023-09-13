@@ -1,0 +1,38 @@
+h2, body {
+	margin: 0px;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	background-color: #eee;
+	line-height: 1,60;
+	padding-bottom: 1000px;
+}
+
+.container1{
+	width: 800px;
+	background-color: white;
+	margin: 50px auto;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.utama {
+	flex: 3;
+	order: 2;
+
+}
+
+.kiri {
+	flex: 1;
+	order: 1;
+
+}
+
+.kanan {
+	flex: 1;
+	order: 3;
+
+}
